@@ -17,7 +17,7 @@ export class CounterApp extends DDDSuper(I18NMixin(LitElement)) {
 
 
  static get tag() {
-   return "counter-app";
+   return "new-counter-app2";
  }
 
 
@@ -36,7 +36,7 @@ export class CounterApp extends DDDSuper(I18NMixin(LitElement)) {
    this.registerLocalization({
      context: this,
      localesPath:
-       new URL("./locales/counter-app.ar.json", import.meta.url).href +
+       new URL("./locales/new-counter-app2.ar.json", import.meta.url).href +
        "/../",
      locales: ["ar", "es", "hi", "zh"],
    });
